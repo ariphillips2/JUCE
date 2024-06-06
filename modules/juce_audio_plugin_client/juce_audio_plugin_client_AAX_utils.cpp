@@ -27,7 +27,7 @@
 
 #if JucePlugin_Build_AAX
 
-#include <AAX_Version.h>
+//#include <AAX_Version.h>
 
 static_assert (AAX_SDK_CURRENT_REVISION >= AAX_SDK_2p4p0_REVISION, "JUCE requires AAX SDK version 2.4.0 or higher");
 
